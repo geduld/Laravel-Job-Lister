@@ -12,7 +12,6 @@ class Listing extends Model
 
     /*
     Disabled in AppServiceProvider.php
-    !----Don't insert stupid shit----!
     protected $fillable = ['title', 'company',
     'location', 'website', 'email', 'description', 'tags'];
     */
