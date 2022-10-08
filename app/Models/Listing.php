@@ -24,10 +24,10 @@ class Listing extends Model
         if($filters['search'] ?? false) {
             $query->where('title', 'like', '%' . request('search') . 
             '%')
-                ->orwhere('description', 'like', '%' . request('search') .
-                '%')
-                ->orwhere('tags', 'like', '%' . request('search') .
-                '%');
+            ->orwhere('description', 'like', '%' . request('search') .
+            '%')
+             ->orwhere('tags', 'like', '%' . request('search') .
+            '%');
         }
     }
 
