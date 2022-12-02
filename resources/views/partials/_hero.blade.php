@@ -8,7 +8,7 @@
 
   <div class="z-10">
       <h1 class="text-4xl font-bold my-4 text-white">
-          Yonnie <span class="text-black">Kauwenberg</span>
+          Yonnie <span class="text-black"></span>
       </h1>
       <p class="text-2xl text-gray-200 font-bold my-4">
           My first Laravel project
